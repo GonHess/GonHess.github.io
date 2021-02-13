@@ -1,0 +1,57 @@
+// CARROUSEL TESTIMONIOS
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+      display:block;
+}
+
+.carousel-item{
+    font-style: italic;
+}
+
+//   TARJETAS
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.card-body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+// Formulario
+
+#formulario{
+  font-family: 'Montserrat', sans-serif;
+  .rownarrow{ 
+    font-weight: bolder;
+  }
+  .form-check-label{ 
+    font-style: italic;
+    font-weight: normal;
+}
+}
+
+// Carrusel FOTOS 
+
+#carruselFotos{
+  width: 80%;
+  align-self: center;
+  align-items: center;
+  padding-left: 200px;
+  position: relative;
+}
+  
+

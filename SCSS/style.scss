@@ -1,0 +1,20 @@
+@import "jumbotron";
+@import "components";
+@import "navbar";
+@import "footer";
+
+// GENERALES
+
+@media (max-width: 300px) {
+    #footer {display: none;}
+    .textnav {
+  width: 25%;
+ }}
+
+ img {
+    max-width: 100%; }
+
+.table table-hover {
+  overflow: hidden;
+}
+

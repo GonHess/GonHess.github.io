@@ -1,0 +1,17 @@
+.navbar {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: auto;
+   }
+  
+   .textnav {
+    width: 50%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+   }
+
+   
+  
