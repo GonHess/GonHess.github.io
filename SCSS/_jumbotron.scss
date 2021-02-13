@@ -6,3 +6,12 @@
     border-radius: 0.3rem;
     font-family: 'Montserrat', sans-serif;
  }
+
+ @media screen and (max-width: 600px) {
+    .jumbotron {
+      float: none;
+      width: 100%;
+      overflow: hidden;
+      hyphens: auto;
+    } 
+}
