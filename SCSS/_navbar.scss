@@ -4,9 +4,9 @@
     top: 0;
     width: 100%;
     padding: auto;
-    
-   }
-  
+    background-color: rgb(240, 229, 217);
+  }
+     
    .textnav {
     width: 50%;
     text-overflow: ellipsis;
@@ -19,5 +19,11 @@
       float: none;
       width: 100%;
       overflow: hidden;
-    } 
+      img {
+        display: block;
+        width: 100%;
+        max-width: 150px; 
+        height: auto;  
+       }
+      }
 }

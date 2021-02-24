@@ -18,3 +18,20 @@
   overflow: hidden;
 }
 
+.table{
+  padding-left: 190px;
+}
+
+@media screen and (max-width: 767px) {
+  #contenedorTabla {
+    padding-left: 0px;
+  } 
+}
+
+body{
+  background-color: rgb(240, 229, 217);
+}
+
+.top-content{
+  font-family: 'Montserrat', sans-serif;
+}
