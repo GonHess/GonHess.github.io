@@ -5,6 +5,10 @@
 
 // GENERALES
 
+body{
+  background-color: rgb(240, 229, 217);
+}
+
 @media (max-width: 300px) {
     #footer {display: none;}
     .textnav {
@@ -28,9 +32,7 @@
   } 
 }
 
-body{
-  background-color: rgb(240, 229, 217);
-}
+
 
 .top-content{
   font-family: 'Montserrat', sans-serif;
