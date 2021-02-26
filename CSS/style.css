@@ -2,9 +2,11 @@
   padding: 2rem 1rem;
   margin-bottom: 1rem;
   margin-top: 3rem;
-  background-color: #43b174 !important;
+  background-color: #6B5640 !important;
   border-radius: 0.3rem;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  hyphens: auto;
+  color: #f0e5d9; }
 
 @media screen and (max-width: 600px) {
   .jumbotron {
@@ -40,8 +42,7 @@
   font-family: 'Montserrat', sans-serif; }
 
 #formulario {
-  font-family: 'Montserrat', sans-serif;
-  padding-left: 190px; }
+  font-family: 'Montserrat', sans-serif; }
   #formulario .rownarrow {
     font-weight: bolder; }
   #formulario .form-check-label {
@@ -81,14 +82,18 @@
   font-size: 1.25rem;
   font-weight: bolder;
   font-family: 'Montserrat', sans-serif;
-  text-align: left; }
+  text-align: left;
+  color: #f0e5d9; }
 
 .containercolor {
-  background-color: #43b174;
+  background-color: #6B5640;
   height: auto;
   padding: 50px;
   margin-top: 20px;
   width: auto; }
+
+body {
+  background-color: #f0e5d9; }
 
 @media (max-width: 300px) {
   #footer {
@@ -108,9 +113,6 @@ img {
 @media screen and (max-width: 767px) {
   #contenedorTabla {
     padding-left: 0px; } }
-
-body {
-  background-color: #f0e5d9; }
 
 .top-content {
   font-family: 'Montserrat', sans-serif; }
